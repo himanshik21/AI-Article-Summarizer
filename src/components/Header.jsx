@@ -1,10 +1,11 @@
 // Header Component
+import logo from '../../public/technology.png';
 const Hero = () => {
   return (
     <header className="w-full flex justify-center items-center flex-col ">
       <nav className="flex gap-1 items-center w-full mb-11 pt-5 px-4">
         <img
-          src="/public/technology.png"
+          src={logo}
           width={65}
           alt="logo"
           className="object-contain"
